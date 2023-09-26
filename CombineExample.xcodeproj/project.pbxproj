@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BA09ED6C2AC252B60036BEB3 /* TodoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09ED6B2AC252B60036BEB3 /* TodoVM.swift */; };
 		BA09ED6E2AC254AF0036BEB3 /* VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09ED6D2AC254AF0036BEB3 /* VM.swift */; };
+		BA09ED702AC27DE30036BEB3 /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09ED6F2AC27DE30036BEB3 /* UserVM.swift */; };
+		BA09ED722AC27DE90036BEB3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09ED712AC27DE90036BEB3 /* User.swift */; };
 		BAA67D592AC100A000E994B2 /* CombineExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA67D582AC100A000E994B2 /* CombineExampleApp.swift */; };
 		BAA67D5B2AC100A000E994B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA67D5A2AC100A000E994B2 /* ContentView.swift */; };
 		BAA67D5D2AC100A100E994B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA67D5C2AC100A100E994B2 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BA09ED6B2AC252B60036BEB3 /* TodoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoVM.swift; sourceTree = "<group>"; };
 		BA09ED6D2AC254AF0036BEB3 /* VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VM.swift; sourceTree = "<group>"; };
+		BA09ED6F2AC27DE30036BEB3 /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
+		BA09ED712AC27DE90036BEB3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BAA67D552AC100A000E994B2 /* CombineExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA67D582AC100A000E994B2 /* CombineExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineExampleApp.swift; sourceTree = "<group>"; };
 		BAA67D5A2AC100A000E994B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 			children = (
 				BAA67D672AC1019B00E994B2 /* Todo.swift */,
 				BAA67D6C2AC1034300E994B2 /* Post.swift */,
+				BA09ED712AC27DE90036BEB3 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 				BAA67D762AC10AEF00E994B2 /* PostVM.swift */,
 				BA09ED6B2AC252B60036BEB3 /* TodoVM.swift */,
 				BA09ED6D2AC254AF0036BEB3 /* VM.swift */,
+				BA09ED6F2AC27DE30036BEB3 /* UserVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -191,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA09ED6C2AC252B60036BEB3 /* TodoVM.swift in Sources */,
+				BA09ED702AC27DE30036BEB3 /* UserVM.swift in Sources */,
 				BAA67D772AC10AEF00E994B2 /* PostVM.swift in Sources */,
 				BA09ED6E2AC254AF0036BEB3 /* VM.swift in Sources */,
 				BAA67D5B2AC100A000E994B2 /* ContentView.swift in Sources */,
@@ -199,6 +206,7 @@
 				BAA67D702AC1043300E994B2 /* CoderHelper.swift in Sources */,
 				BAA67D592AC100A000E994B2 /* CombineExampleApp.swift in Sources */,
 				BAA67D6D2AC1034300E994B2 /* Post.swift in Sources */,
+				BA09ED722AC27DE90036BEB3 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

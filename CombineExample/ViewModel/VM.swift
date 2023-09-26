@@ -37,6 +37,19 @@ class VM: ObservableObject {
       } receiveValue: { (posts:Posts) in
         print("VM - fetchTodosAndThenPosts / posts.count: \(posts.count)")
       }.store(in: &subscriptions)
-
+  }
+  
+  func fetchTodosAndThenPostsWithFilter () {
+    ApiService.fetchTodosAndThenPostsWithFilter()
+      .sink { completion in
+        switch completion {
+        case .failure(let err):
+          print("VM - fetchTodosAndThenPostsWithFilter: err: \(err)")
+        case .finished:
+          print("VM - fetchTodosAndThenPostsWithFilter: finished")
+        }
+      } receiveValue: { (posts:Posts) in
+        print("VM - fetchTodosAndThenPostsWithFilter / posts.count: \(posts.count)")
+      }.store(in: &subscriptions)
   }
 }

@@ -65,6 +65,17 @@ struct ContentView: View {
       .background(
         RoundedRectangle(cornerRadius: 10).fill(Color.gray)
       )
+      
+      Button {
+        self.viewModel.fetchTodosAndThenPostsWithFilter()
+      } label: {
+        Text("call todos then posts with filter")
+          .foregroundColor(.white)
+      }
+      .padding()
+      .background(
+        RoundedRectangle(cornerRadius: 10).fill(Color.gray)
+      )
     }
     .padding()
   }
