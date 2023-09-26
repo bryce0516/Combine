@@ -21,7 +21,7 @@ class PostVM: ObservableObject {
           print("PostVM - fetchPosts: finished")
         }
       }  receiveValue: { (posts: Posts) in
-        print("PostVM - fetchPosts / posts: \(posts)")
+        print("PostVM - fetchPosts / posts: \(posts.count)")
       }.store(in: &subscriptions)
   }
 }
